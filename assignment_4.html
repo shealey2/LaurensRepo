@@ -1,0 +1,42 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>Assignment 4</title>
+	<div id="logo">
+		<img src="http://profperry.com/Classes20/PHPwithMySQL/KingLibLogo.jpg" alt="King Real Estate Logo"> 
+	</div>
+</head>
+
+<body>
+<body style="background-color: lightblue;">
+
+	<br />
+
+	<h3>
+	<span style="text-decoration: bold; color: blue;">Enter Keyword to Search for Titles: </span></p>
+	</h3>
+
+	<form method="post" action="assignment_4_booklist.php" id="body">
+
+		<p>
+		<input type="text" name="find_keyword" size="30" />
+
+		Sort Order:
+		<input type="radio" name="sort" value="Ascending" checked="checked">Ascending
+        <input type="radio" name="sort" value="Descending">Descending
+		</p>
+
+		<p>
+		(leave blank to list all titles)
+        </p>
+
+		<p>
+		<input type="submit" value="Find Titles" />
+		</p>
+
+	</form>
+
+</body>
+</html>
